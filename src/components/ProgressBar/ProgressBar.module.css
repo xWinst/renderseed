@@ -1,0 +1,21 @@
+.progressbar {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    transform-origin: center;
+    transform: rotate(-90deg);
+}
+
+.text {
+    position: absolute;
+    font-size: 44px;
+    font-weight: 700;
+    color: #0000ff;
+    text-align: center;
+}

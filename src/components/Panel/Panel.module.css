@@ -1,0 +1,85 @@
+.colorList {
+    display: flex;
+    max-width: 230px;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.prop {
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.item {
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.active {
+    composes: item;
+    border-color: #ff5736;
+}
+
+.color {
+    width: 100%;
+    height: 100%;
+}
+
+.flexBox {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.input {
+    width: 38px;
+}
+
+.btnBox {
+    width: 216px;
+    display: flex;
+    padding: 2px;
+    border: 1px solid #eaecee;
+    border-radius: 6px;
+}
+
+.btn {
+    width: 106px;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--btn-color);
+    color: #ffffff;
+}
+
+.passiveBtn {
+    composes: btn;
+    background-color: transparent;
+    color: var(--second-color);
+}
+
+.texture {
+    width: 60px;
+    height: 60px;
+    padding: 2px;
+    border: 4px solid transparent;
+    cursor: pointer;
+}
+
+.activeTexture {
+    composes: texture;
+    border-color: #ff5736;
+}
+
+input[type="range"] {
+    width: 150px;
+}
+
+.p {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
